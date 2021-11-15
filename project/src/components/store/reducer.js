@@ -1,10 +1,10 @@
 import {combineReducers} from 'redux';
-import {data} from './data/data.js';
+import {changer} from './changer/changer.js';
 
 export const NameSpace = {
-  DATA: 'DATA',
+  CHANGER: 'CHANGER',
 };
 
 export default combineReducers({
-  [NameSpace.DATA]: data,
+  [NameSpace.CHANGER]: changer,
 });

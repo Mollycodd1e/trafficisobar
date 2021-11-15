@@ -1,5 +1,5 @@
 .about {
-  width: 1180px;
+  max-width: 1180px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -43,13 +43,15 @@
 }
 
 .about__text {
+  padding-right: 10px;
   width: 540px;
+  box-sizing: border-box;
 }
 
 .about__description h3 {
   margin: 0;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 40px;
+  line-height: 47px;
   font-weight: 700;
   color: #ffffff;
 }
@@ -58,19 +60,122 @@
   margin: 0;
   margin-top: 30px;
   font-size: 24px;
-  line-height: 27px;
+  line-height: 34px;
   color: #ffffff;
 }
 
 .about a {
   display: block;
   width: 210px;
+  margin-top: 25px;
   padding: 15px 5px;
   font-size: 17px;
   line-height: 20px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
   color: #ffffff;
+  box-sizing: border-box;
   background-color: #f44a1e;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+@media (max-width: $tablet-width-only) {
+  .about h2 {
+    font-size: 48px;
+    line-height: 62px;
+
+    &::before,
+    &::after {
+      width: 112px;
+      height: 2px;
+      background-color: #f44a1e;
+    }
+
+    &::before {
+      left: -130px;
+    }
+
+    &::after {
+      right: -130px;
+    }
+  }
+
+  .about__description h3 {
+    font-size: 34px;
+    line-height: 37px;
+  }
+
+  .about__description p {
+    margin-top: 25px;
+    font-size: 21px;
+    line-height: 27px;
+  }
+
+  .about__description img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media(max-width: $mobile-width-only) {
+  .about h2 {
+    width: 290px;
+    font-size: 38px;
+    line-height: 52px;
+    font-weight: 700;
+
+    &::before,
+    &::after {
+      width: 25px;
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0px;
+    }
+  }
+
+  .about__description {
+    flex-direction: column-reverse;
+    margin-top: 25px;
+  }
+
+  .about__text {
+    width: 290px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .about__description h3 {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  .about__description p {
+    margin-top: 25px;
+    font-size: 21px;
+    line-height: 27px;
+  }
+
+  .about a {
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+
+  .about__description img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
 }
