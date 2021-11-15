@@ -50,13 +50,15 @@
   box-shadow: 0 0 48px rgba(244, 74, 30, 0.25);
 }
 
-.example a {
+.example button {
   display: block;
   width: 210px;
   padding: 15px 5px;
   margin-top: 44px;
   font-size: 17px;
   line-height: 20px;
+  border: none;
+  cursor: pointer;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -65,5 +67,63 @@
 
   &:hover {
     opacity: 0.7;
+  }
+}
+
+@media (max-width: $tablet-width-only) {
+  .example h2 {
+    font-size: 48px;
+    line-height: 62px;
+
+    &::before,
+    &::after {
+      width: 112px;
+      height: 2px;
+      background-color: #f44a1e;
+    }
+
+    &::before {
+      left: -130px;
+    }
+
+    &::after {
+      right: -130px;
+    }
+  }
+}
+
+@media(max-width: $mobile-width-only) {
+  .example h2 {
+    width: 290px;
+    font-size: 38px;
+    line-height: 52px;
+    font-weight: 700;
+
+    &::before,
+    &::after {
+      width: 25px;
+    }
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      right: 0px;
+    }
+  }
+
+  .example__image h3 {
+    text-align: center;
+  }
+
+  .example__image img {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .example button {
+    margin: 0 auto;
+    margin-top: 30px;
   }
 }

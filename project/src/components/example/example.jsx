@@ -11,7 +11,7 @@ function Example() {
 
   const dispatch = useDispatch();
   const activeCat = useSelector(getCat);
-  console.log(activeCat)
+
   const handleButtonCLick = () => {
     fetch(URLGET)
       .then((response) => response.json())

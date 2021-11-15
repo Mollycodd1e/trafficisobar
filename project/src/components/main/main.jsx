@@ -1,8 +1,15 @@
 import React from 'react';
 import Header from '../header/header';
 import Footer from '../footer/footer';
+import {AppRoute, PAGES} from '../../const';
+import {Link} from 'react-router-dom';
+import {useDispatch} from 'react-redux';
+import {changePage} from '../store/action';
 
 function Main() {
+
+  const dispatch = useDispatch();
+
   return (
     <div className="page">
       <Header />
@@ -18,9 +25,9 @@ function Main() {
                 себе Кратко о себеКратко о себе Кратко о себеКратко о себе Кратко о себе Кратко о себе
                 Кратко о себеКратко о себе Кратко о себеКратко о себе Кратко о себе</p>
             </div>
-            <img src="img/photo.png" width="400" height="400" alt="Фото в резюме" />
+            <img src="img/iam.jpg" width="400" height="400" alt="Фото в резюме" />
           </div>
-          <a href="#">Смотреть работу</a>
+          <Link to={AppRoute.EXAMPLE} onClick={() => dispatch(changePage(PAGES[1].page))}>Смотреть работу</Link>
        </section>
       </main>
       <Footer />
