@@ -1,5 +1,5 @@
 {
-  "name": "project",
+  "name": "traffic",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -37,8 +37,8 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://Mollycodd1e.github.io/trafficisobar",
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  },
-  "homepage": "https://Mollycodd1e.github.io/trafficisobar"
+  }
 }
