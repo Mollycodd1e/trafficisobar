@@ -46,6 +46,7 @@
 .example__image img {
   display: block;
   margin-top: 34px;
+  object-fit: cover;
   border: 1px solid #f44a1e;
   box-shadow: 0 0 48px rgba(244, 74, 30, 0.25);
 }
