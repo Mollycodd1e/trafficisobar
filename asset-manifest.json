@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.dca0c597.chunk.js",
-    "main.js.map": "/static/js/main.dca0c597.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b7845182.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b7845182.js.map",
-    "static/js/2.4de5e665.chunk.js": "/static/js/2.4de5e665.chunk.js",
-    "static/js/2.4de5e665.chunk.js.map": "/static/js/2.4de5e665.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.4de5e665.chunk.js.LICENSE.txt": "/static/js/2.4de5e665.chunk.js.LICENSE.txt"
+    "main.js": "/trafficisobar/static/js/main.dca0c597.chunk.js",
+    "main.js.map": "/trafficisobar/static/js/main.dca0c597.chunk.js.map",
+    "runtime-main.js": "/trafficisobar/static/js/runtime-main.910236e9.js",
+    "runtime-main.js.map": "/trafficisobar/static/js/runtime-main.910236e9.js.map",
+    "static/js/2.4de5e665.chunk.js": "/trafficisobar/static/js/2.4de5e665.chunk.js",
+    "static/js/2.4de5e665.chunk.js.map": "/trafficisobar/static/js/2.4de5e665.chunk.js.map",
+    "index.html": "/trafficisobar/index.html",
+    "static/js/2.4de5e665.chunk.js.LICENSE.txt": "/trafficisobar/static/js/2.4de5e665.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7845182.js",
+    "static/js/runtime-main.910236e9.js",
     "static/js/2.4de5e665.chunk.js",
     "static/js/main.dca0c597.chunk.js"
   ]
