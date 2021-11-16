@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/trafficisobar/static/js/main.29ab3b20.chunk.js",
-    "main.js.map": "/trafficisobar/static/js/main.29ab3b20.chunk.js.map",
+    "main.js": "/trafficisobar/static/js/main.807a925f.chunk.js",
+    "main.js.map": "/trafficisobar/static/js/main.807a925f.chunk.js.map",
     "runtime-main.js": "/trafficisobar/static/js/runtime-main.910236e9.js",
     "runtime-main.js.map": "/trafficisobar/static/js/runtime-main.910236e9.js.map",
     "static/js/2.268f1a4f.chunk.js": "/trafficisobar/static/js/2.268f1a4f.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.910236e9.js",
     "static/js/2.268f1a4f.chunk.js",
-    "static/js/main.29ab3b20.chunk.js"
+    "static/js/main.807a925f.chunk.js"
   ]
 }
